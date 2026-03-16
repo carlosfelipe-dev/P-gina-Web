@@ -76,6 +76,7 @@ export default function Home({ targetSection }: HomeProps) {
   const year = useMemo(() => new Date().getFullYear(), []);
 
   return (
+    
     <div className="min-h-screen bg-background text-foreground">
       <a
         href="#conteudo"
@@ -394,14 +395,11 @@ export default function Home({ targetSection }: HomeProps) {
                     Conecte aqui os links reais para formulários, PDFs ou páginas internas.
                   </p>
                 </div>
-                <Button
-                  onClick={() => {
-                    // Placeholder: futuramente integrar links reais
-                    // eslint-disable-next-line no-alert
-                    alert("Sugestão: substitua este botão por um link real para o questionário.");
-                  }}
-                >
-                  Abrir questionário
+                <Button>
+                  <Link to="/copsoq"><Button> Abrir COPSOQ </Button></Link>
+                </Button>
+                <Button>
+                  <Link to="/nasatlx"><Button> Abrir NASA TLX </Button></Link>
                 </Button>
               </div>
               <Separator className="my-6" />
