@@ -53,7 +53,7 @@
   --radius: 0.9rem;
 
   /* Base */
-  --background: oklch(84.22% 0.1724 84.537);
+  --background: oklch(77.549% 0.16174 60.484 / 0.856);
   --foreground: oklch(0.155 0.02 255);
 
   --card: oklch(0.99 0.006 95);
@@ -94,7 +94,7 @@
   --sidebar-foreground: var(--foreground);
   --sidebar-primary: var(--primary);
   --sidebar-primary-foreground: var(--primary-foreground);
-  --sidebar-accent: oklch(0.93 0.02 95);
+  --sidebar-accent: #FFB95F
   --sidebar-accent-foreground: var(--foreground);
   --sidebar-border: oklch(0.87 0.012 95);
   --sidebar-ring: var(--ring);
